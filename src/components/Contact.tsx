@@ -7,7 +7,7 @@ const Contact = () => {
             Get In Touch
           </h2>
           <p className="text-lg text-neutral-600 mb-12 max-w-2xl mx-auto">
-            I am always interested in discussing new opportunities,
+            I&apos;m always interested in discussing new opportunities,
             collaborations, or just connecting with fellow professionals. Feel
             free to reach out!
           </p>
@@ -65,8 +65,8 @@ const Contact = () => {
           <div className="mt-12 p-6 bg-neutral-50 rounded-lg">
             <p className="text-neutral-600">
               Looking for a dedicated professional to optimize your sales
-              operations and business strategy? I'd love to discuss how I can
-              contribute to your team's success.
+              operations? I&apos;d love to discuss how I can contribute to your
+              team&apos;s success.
             </p>
           </div>
         </div>
