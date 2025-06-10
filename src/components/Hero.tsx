@@ -12,8 +12,10 @@ const Hero = () => {
           </p>
 
           <p className="text-lg text-neutral-500 mb-12 max-w-2xl mx-auto">
-            Welcome to my portfolio. I specialize in optimizing sales operations
-            and developing strategic insights to drive business growth.
+            Welcome to my portfolio. I am a detail-oriented Sales and Operations
+            Analyst specializing in leveraging data analysis, process and
+            platform optimization, and incentive strategies to drive business
+            growth and informed decision-making.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

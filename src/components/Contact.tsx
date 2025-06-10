@@ -7,7 +7,7 @@ const Contact = () => {
             Get In Touch
           </h2>
           <p className="text-lg text-neutral-600 mb-12 max-w-2xl mx-auto">
-            I'm always interested in discussing new opportunities,
+            I am always interested in discussing new opportunities,
             collaborations, or just connecting with fellow professionals. Feel
             free to reach out!
           </p>
@@ -15,7 +15,7 @@ const Contact = () => {
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
             {/* Email */}
             <a
-              href="mailto:graeden.middel@example.com"
+              href="mailto:graedenmiddel@gmail.com"
               className="flex items-center space-x-3 bg-neutral-50 hover:bg-primary/5 border border-neutral-200 hover:border-primary/20 rounded-lg px-6 py-4 transition-all duration-200 group"
             >
               <div className="p-2 bg-primary/10 rounded-lg group-hover:bg-primary/20 transition-colors">
@@ -35,13 +35,13 @@ const Contact = () => {
               </div>
               <div className="text-left">
                 <p className="font-medium text-neutral-900">Email</p>
-                <p className="text-neutral-600">graeden.middel@example.com</p>
+                <p className="text-neutral-600">graedenmiddel@gmail.com</p>
               </div>
             </a>
 
             {/* LinkedIn */}
             <a
-              href="https://linkedin.com/in/graeden-middel"
+              href="https://www.linkedin.com/in/graedenmiddel/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center space-x-3 bg-neutral-50 hover:bg-primary/5 border border-neutral-200 hover:border-primary/20 rounded-lg px-6 py-4 transition-all duration-200 group"
@@ -65,8 +65,8 @@ const Contact = () => {
           <div className="mt-12 p-6 bg-neutral-50 rounded-lg">
             <p className="text-neutral-600">
               Looking for a dedicated professional to optimize your sales
-              operations? I'd love to discuss how I can contribute to your
-              team's success.
+              operations and business strategy? I'd love to discuss how I can
+              contribute to your team's success.
             </p>
           </div>
         </div>
