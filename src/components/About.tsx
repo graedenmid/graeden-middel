@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const About = () => {
   return (
     <section id="about" className="py-20 bg-white">
@@ -29,7 +31,7 @@ const About = () => {
               <p className="text-lg text-neutral-600 leading-relaxed">
                 My leadership and advocacy skills, developed through managing a
                 political campaign with over 200 volunteers and serving on
-                Western University's Students' Council, have honed my
+                Western University&apos;s Students&apos; Council, have honed my
                 organizational, communication, and multitasking abilities.
                 Holding a Bachelor of Science in Microbiology and Immunology
                 from Western University, I combine analytical rigor with a drive
@@ -42,11 +44,13 @@ const About = () => {
             {/* Photo and Info */}
             <div className="flex flex-col items-center space-y-8">
               {/* Professional photo */}
-              <div className="w-80 h-80 rounded-xl shadow-lg overflow-hidden bg-neutral-100">
-                <img
+              <div className="w-80 h-80 rounded-xl shadow-lg overflow-hidden bg-neutral-100 relative">
+                <Image
                   src="/profile.png"
                   alt="Graeden Middel - Professional Photo"
-                  className="w-full h-full object-cover"
+                  fill
+                  className="object-cover"
+                  priority
                 />
               </div>
 
@@ -74,7 +78,7 @@ const About = () => {
               {/* Contact Info Card */}
               <div className="w-full max-w-sm bg-gradient-to-br from-primary/5 to-blue-50 rounded-lg p-6 border border-primary/10">
                 <h4 className="text-lg font-semibold text-neutral-900 mb-4 text-center">
-                  Let's Connect
+                  Let&apos;s Connect
                 </h4>
                 <div className="space-y-3">
                   <a
