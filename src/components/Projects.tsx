@@ -13,27 +13,27 @@ const Projects = () => {
       id: 2,
       name: "Online Resume",
       description:
-        "Built with Cursor - Static online resume showcasing my skills, experience, and projects. Built with Cursor AI.",
+        "Built with Cursor - A very simple and straightforward static online resume showcasing my skills, experience, and projects. Built with Cursor AI.",
       link: "https://graedenmid.github.io/resume/",
       github: "https://github.com/graedenmid/resume",
       tech: ["HTML", "CSS", "JavaScript"],
     },
     {
       id: 3,
-      name: "Online Platform Jumping Game",
+      name: "Platform Jumper",
       description:
-        "Online game built with HTML, CSS, and JavaScript. The player must jump up to new platforms and avoid obstacles to reach the end of the platform. Built with Cursor AI.",
+        "Online platform jumping game built with HTML, CSS, and JavaScript. The player must jump up to new platforms and avoid obstacles to reach the end of the platform. Built with Cursor AI.",
       link: "https://graedenmid.github.io/platform-jumper/",
       github: "https://github.com/graedenmid/platform-jumper",
       tech: ["HTML", "CSS", "JavaScript"],
     },
     {
       id: 4,
-      name: "Personal Budgeting Web App",
+      name: "Budget Simple",
       description:
-        "IN PROGRESS - Online web app to help people track their personal finances, budget their spending, and reach their financial goals. Built with Cursor AI.",
-      link: null,
-      github: null,
+        "IN PROGRESS - only links to database test - Online personal budgeting web app to help people track their personal finances, budget their spending, and reach their financial goals. Built with Cursor AI.",
+      link: "https://budget-simple.vercel.app/test-db",
+      github: "https://github.com/graedenmid/budget-simple",
       tech: ["Next.js", "TensorFlow", "D3.js"],
     },
   ];
