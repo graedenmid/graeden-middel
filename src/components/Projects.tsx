@@ -31,10 +31,10 @@ const Projects = () => {
       id: 4,
       name: "Budget Simple",
       description:
-        "IN PROGRESS - only links to database test - Online personal budgeting web app to help people track their personal finances, budget their spending, and reach their financial goals. Built with Cursor AI.",
+        "IN PROGRESS - Working on Phase 8 of 11 in Development - Online personal budgeting web app to help people track their personal finances, budget their spending, and reach their financial goals. Built with Cursor AI.",
       link: "https://budget-simple.vercel.app/test-db",
       github: "https://github.com/graedenmid/budget-simple",
-      tech: ["Next.js", "TensorFlow", "D3.js"],
+      tech: ["TypeScript", "React", "Tailwind CSS"],
     },
   ];
 
